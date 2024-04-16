@@ -1,0 +1,10 @@
+.food-input {
+  width: 95%;
+  margin: 0rem 0.7rem;
+  border: 1px solid rgb(113, 108, 108);
+  border-radius: 5px;
+}
+
+.outer {
+  margin: 1 rem 0rem;
+}

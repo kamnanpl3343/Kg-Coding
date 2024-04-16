@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #216e6f;
+  min-width: 40vw;
+  max-width: 100vw;
+}
+.items > li > a {
+  color: white;
+}
+.main {
+  display: flex;
+}
+
+.sideBar {
+  width: 229px;
+  background-color: rgba(33, 110, 111, 0.3);
+  color: white;
+  margin: -26px 2rem 0 0;
+  min-height: 85vh;
+}
+
+.hashtag {
+  margin: 0.2rem 0.2rem 1.5rem 0.2rem;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  width: 343px;
+  margin: 1.5rem;
+}
+.form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #064647;
+}
+.form-label::after {
+  content: ":";
+}
+
+.formHeading {
+  width: 600px;
+}
+.submit {
+  text-align: center;
+}
+.submit > button {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  width: 300px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.msg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.postBody {
+  margin: 0.2rem;
+  overflow: hidden;
+}
+.postBodyContent {
+  text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+}
+.postTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
