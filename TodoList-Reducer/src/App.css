@@ -1,0 +1,17 @@
+ .heading {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+}
+
+.btn {
+  width: 70px;
+}

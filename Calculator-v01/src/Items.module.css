@@ -1,0 +1,14 @@
+.innerBottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btns {
+  width: 85px;
+  height: 50px;
+  margin: 7px;
+  font-size: 20px;
+  border: 2px solid #c2b4b4;
+  border-radius: 5px;
+}
